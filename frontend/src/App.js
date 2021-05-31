@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import './App.css';
 import ReactTable from "react-table-6";
 import "react-table-6/react-table.css";
 
-class App extends Component {  
+class App extends Component {
+  state = {
+    data: []
+  }
+
+  componentDidMount(){
+    axios.get('http://localhost:8080/data/all').then((response) => {
+      const data = response.data;
+      this.setState({ data });
+    }, (error) => {
+      console.log(error);
+    });
+  }
+  
   render(){
-    //Dummy data for now
-    const data = [
-      {
-        name: 'Test',
-        cost: 99,
-        stocked: false
-      },
-      {
-        name: 'asdf',
-        cost: 1,
-        stocked: true
-      }
-    ]
     const columns = [
     {
       Header: 'Name',  
@@ -36,10 +37,10 @@ class App extends Component {
     return (  
       <div>  
         <ReactTable  
-          data={data}  
+          data={this.state.data}  
           columns={columns}  
-          defaultPageSize = {2}  
-          pageSizeOptions = {[2,4, 6]}  
+          defaultPageSize = {25}  
+          pageSizeOptions = {[25, 50, 100]}  
         />  
       </div>        
     )  

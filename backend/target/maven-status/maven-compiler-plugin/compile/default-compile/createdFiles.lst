@@ -1,5 +1,4 @@
-com/jake/Kingsmen/Repository/Repository.class
-com/jake/Kingsmen/model/DataModel.class
-com/jake/Kingsmen/Controller/Controller.class
-com/jake/Kingsmen/config/DynamoDBConfig.class
-com/jake/Kingsmen/KingsmenApplication.class
+com/jake/kingsmen/repository/DataRepository.class
+com/jake/kingsmen/model/DataModel.class
+com/jake/kingsmen/controller/DataController.class
+com/jake/kingsmen/KingsmenApplication.class

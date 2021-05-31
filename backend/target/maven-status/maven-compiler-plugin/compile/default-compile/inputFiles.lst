@@ -1,3 +1,4 @@
-/home/jake/kingsmen_project/backend/src/main/java/com/jake/Kingsmen/Repository.java
-/home/jake/kingsmen_project/backend/src/main/java/com/jake/Kingsmen/KingsmenApplication.java
-/home/jake/kingsmen_project/backend/src/main/java/com/jake/Kingsmen/model/DataModel.java
+/home/jake/backend/src/main/java/com/jake/kingsmen/KingsmenApplication.java
+/home/jake/backend/src/main/java/com/jake/kingsmen/model/DataModel.java
+/home/jake/backend/src/main/java/com/jake/kingsmen/controller/DataController.java
+/home/jake/backend/src/main/java/com/jake/kingsmen/repository/DataRepository.java
