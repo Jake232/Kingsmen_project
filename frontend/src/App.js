@@ -35,15 +35,15 @@ class App extends Component {
     }]
 
     return (  
-      <div>  
+      <div>
         <ReactTable  
-          data={this.state.data}  
+          data={this.state.data}
           columns={columns}  
           defaultPageSize = {25}  
-          pageSizeOptions = {[25, 50, 100]}  
+          pageSizeOptions = {[25, 50, 100]}
         />  
       </div>        
     )  
-  }  
+  }
 }  
 export default App;  
