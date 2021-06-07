@@ -11,21 +11,24 @@ class ModelTests{
     @Test
     void nameTest(){
         DataModel data = new DataModel();
-        data.setName("Unit Test");
-        assertEquals(data.getName(), "Unit Test");
+        String name = "Unit Test";
+        data.setName(name);
+        assertEquals(data.getName(), name);
     }
 
     @Test
     void costTest(){
         DataModel data = new DataModel();
-        data.setCost(1);
-        assertEquals(data.getCost(), 1);
+        int cost = 1;
+        data.setCost(cost);
+        assertEquals(data.getCost(), cost);
     }
 
     @Test
     void stockedTest(){
         DataModel data = new DataModel();
-        data.setStocked(false);
-        assertEquals(data.getStocked(), false);
+        boolean stocked = false;
+        data.setStocked(stocked);
+        assertEquals(data.getStocked(), stocked);
     }
 }

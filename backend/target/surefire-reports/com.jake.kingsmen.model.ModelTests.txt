@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.jake.kingsmen.model.ModelTests
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.812 s - in com.jake.kingsmen.model.ModelTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.103 s - in com.jake.kingsmen.model.ModelTests
