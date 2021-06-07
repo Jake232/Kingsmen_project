@@ -1,4 +1,5 @@
 com/jake/kingsmen/repository/DataRepository.class
+com/jake/kingsmen/config/CorsConfig.class
 com/jake/kingsmen/model/DataModel.class
 com/jake/kingsmen/controller/DataController.class
 com/jake/kingsmen/KingsmenApplication.class

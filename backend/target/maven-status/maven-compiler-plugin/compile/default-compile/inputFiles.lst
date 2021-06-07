@@ -2,3 +2,4 @@
 /home/jake/kingsmen_project/backend/src/main/java/com/jake/kingsmen/repository/DataRepository.java
 /home/jake/kingsmen_project/backend/src/main/java/com/jake/kingsmen/controller/DataController.java
 /home/jake/kingsmen_project/backend/src/main/java/com/jake/kingsmen/model/DataModel.java
+/home/jake/kingsmen_project/backend/src/main/java/com/jake/kingsmen/config/CorsConfig.java
